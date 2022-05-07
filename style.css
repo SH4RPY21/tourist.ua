@@ -1,7 +1,7 @@
 /*               Main settings                */
 body{
     margin:0px;
-    background:url(./Kyiv.png);
+    background:url(Kyiv.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height:97.25vh;

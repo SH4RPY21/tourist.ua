@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Туризм по містам України</title>
     <link rel="stylesheet" href="./style.css" >
-    <script src="script.js"></script>
+    
 </head>
 
 <body>
@@ -13,7 +13,7 @@
         <a href="#" class="about" >Про нас</a>
     </header>
     <div class="divForm" >
-        <form>
+        <form id="form" >
             <div>
             
                 <p align="center" class="Text" >Ваша Фамілія та Ім'я<br>
@@ -25,12 +25,8 @@
                 </p>
                 <p align="center" class="Text">
                     Оберіть Місто для подорожі<br><br>
-                <select name = "City" class="FormSelect" >
-                    <option>Київ</option>
-                    <option>Дніпро</option>
-                    <option>Львів</option>
-                    <option>Одеса</option>
-                    <option>Херсон</option>
+                <select name = "City" class="FormSelect" id="select" >
+                    
                 </select><br><br><br>
                 <input type="submit" name="subm" value="Відправити" class="confirm">
                 </p>
@@ -38,6 +34,7 @@
             </div>
         </form>
     </div>
-
+<script src="./script/cities.js"></script>
+<script src="./script/main.js"></script>
 </body>
 </html>
